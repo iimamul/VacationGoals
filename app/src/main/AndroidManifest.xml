@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.vacationgoals">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".SliderActivity" />
+
+        <activity android:name=".CHakaluki" />
+        <activity android:name=".SJaflong" />
+        <activity android:name=".SLalakhal" />
+        <activity android:name=".SLawachara" />
+        <activity android:name=".SMadhabkunda" />
+        <activity android:name=".SRatarkul" />
+        <activity android:name=".SSrimangal" />
+        <activity android:name=".STangur" />
+        <activity android:name=".Sylhet" />
+        <activity android:name=".Dhaka" />
+        <activity android:name=".Rangpur" />
+        <activity android:name=".Rajshahi" />
+        <activity android:name=".Khulna" />
+        <activity android:name=".Barisal" />
+        <activity android:name=".Chittagong" />
+        <activity android:name=".Mymensing" />
+        <activity android:name=".Division" />
+        <activity android:name=".SLakkatura" />
+        <activity android:name=".CBandarban" />
+        <activity android:name=".CCxbazar" />
+        <activity android:name=".CShitakundo" />
+        <activity android:name=".CStmartin" />
+        <activity android:name=".CSajek" />
+        <activity android:name=".CRangamati" />
+        <activity android:name=".CPatenga" />
+        <activity android:name=".CNijhum" />
+        <activity android:name=".CKaptai" />
+        <activity android:name=".CInani" />
+        <activity android:name=".DAManzil" />
+        <activity android:name=".DDhakeshwari" />
+        <activity android:name=".DSafaripark" />
+        <activity android:name=".DLalbagh" />
+        <activity android:name=".DLMuseum" />
+        <activity android:name=".DNMuseum" />
+        <activity android:name=".DNPHouse" />
+        <activity android:name=".DNMMonument" />
+        <activity android:name=".DRamna" />
+        <activity android:name=".DStarMosque" />
+        <activity android:name=".DTaj" />
+        <activity android:name=".BBuddhistTemple" />
+        <activity android:name=".BKuakata" />
+        <activity android:name=".RBhinnoJogot" />
+        <activity android:name=".RKantajiTemple" />
+        <activity android:name=".RTajhatRajbari" />
+        <activity android:name=".RChalanBeel" />
+        <activity android:name=".RMahasthangar" />
+        <activity android:name=".RPadma" />
+        <activity android:name=".RPaharpur" />
+        <activity android:name=".RPuthia" />
+        <activity android:name=".RaVRMuseum" />
+        <activity android:name=".KBenapole" />
+        <activity android:name=".KKuthiBari" />
+        <activity android:name=".KKJAliTomb" />
+        <activity android:name=".KLalonAkhra" />
+        <activity android:name=".KMujibnagar" />
+        <activity android:name=".KMongla" />
+        <activity android:name=".KNMosque" />
+        <activity android:name=".KSMosque" />
+        <activity android:name=".MBAU" />
+        <activity android:name=".MBirisiri" />
+        <activity android:name=".MGajani" />
+        <activity android:name=".KJalchhatra" />
+        <activity android:name=".MJalchhatra" />
+        <activity android:name=".MOGarden" />
+        <activity android:name=".MSGarden" />
+        <activity android:name=".MSusong"></activity>
+    </application>
+
+</manifest>
